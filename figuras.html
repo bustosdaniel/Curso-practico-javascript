@@ -7,7 +7,25 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Figueras Geométricas</h1>
+  <header>
+    <h1>Figueras Geométricas</h1>
+    <p> Taller practico de JavaScript</p>
+  </header>
+  <section>
+    <h2> Calcula el area y el perimetro de un cuadrado</h2>
+    <form>
+      <label for="InputCuadrado">
+        Escribe cuanto mide los lados de tu cuadrado: 
+      </label>
+      <input id="InputCuadrado" type="number">
+      <button type="button" onclick="CalcularPerimetroCuadrado()"
+      >Calcular el perimetro
+      </button>
+      <button type="button" onclick="CalcularAreaCuadrado()">
+        Calcular el area
+      </button>
+    </form>
+  </section>
   <script src="/figuras.js"></script>
 </body>
 </html>
